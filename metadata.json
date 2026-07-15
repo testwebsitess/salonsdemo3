@@ -1,0 +1,6 @@
+{
+  "name": "Zaria Premium Salon",
+  "description": "A luxury premium beauty salon website in Pakistan featuring real interactive 3D elements, a virtual studio tour, and an elegant booking system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
