@@ -1,3 +1,7 @@
+import panoramaImg from './assets/images/salon_interior_panorama_1784105959723.jpg';
+import bridalImg from './assets/images/pakistani_bridal_makeup_1784105981645.jpg';
+import hairStylingImg from './assets/images/hair_styling_luxury_1784106001851.jpg';
+
 export interface Service {
   id: string;
   name: string;
@@ -44,9 +48,9 @@ export interface TimelineEvent {
 }
 
 export const salonImages = {
-  panorama: '/src/assets/images/salon_interior_panorama_1784105959723.jpg',
-  bridal: '/src/assets/images/pakistani_bridal_makeup_1784105981645.jpg',
-  hairStyling: '/src/assets/images/hair_styling_luxury_1784106001851.jpg',
+  panorama: panoramaImg,
+  bridal: bridalImg,
+  hairStyling: hairStylingImg,
   // High quality premium placeholders for other visuals
   facialSkin: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=600',
   nailsLuxury: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600',
